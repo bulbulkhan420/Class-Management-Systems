@@ -1,0 +1,151 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.head{
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: left;
+    background-color: rgb(2, 16, 52);
+}
+.tab{
+    width: 80%;
+    margin: 0px auto 0px auto;
+    border: 1px solid black;
+   
+}
+.head > .logo{
+    color: aliceblue;
+    padding: 3px;
+    margin-left: 35px;
+    border: 1px solid aliceblue;
+}
+.option{
+    width: 30%;
+    transition: 0.7s;
+    height: 94dvh;
+    background-color:rgb(2, 16, 52) ;
+    color: aliceblue;
+    display: flex;
+    left: -100%;
+    position: fixed;
+    top:40px;
+    justify-content: start;
+    align-items:center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.option>div{
+     padding: 15px;
+     margin-top: 30px;
+}
+.option >div:hover{
+    background-color: rgb(11, 11, 153);
+    transition: 1s;
+    border-radius: 2px;
+}
+.profile{
+    display: flex;
+   position: relative;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    top:40px;
+    padding: 10px;
+    flex-direction: column;
+    z-index: -3;
+    width: 100%;
+    min-height: 93dvh;
+   background-color: rgb(187, 204, 247);
+   
+}
+.profile >table{
+    width: 60%;
+   
+  min-height: 50dvh;
+}
+.profile >h5{
+    margin: 5px 0px;
+}
+.profile >img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+table >tbody>th{
+    text-align: center;
+   
+   
+}
+table td{
+    text-align: center;
+}
+tbody >tr{
+    border: 1px solid black;
+}
+tbody>tr:nth-child(odd){
+    background-color: black;
+    color: aliceblue;
+}
+tbody>tr:nth-child(even){
+    background-color: rgb(234, 163, 11);
+    color: aliceblue;
+}
+.result{
+    display: flex;
+    position: relative;
+     justify-content: center;
+     align-items: center;
+     box-sizing: border-box;
+     top:40px;
+     padding: 10px;
+     flex-direction: column;
+     z-index: -3;
+     width: 100%;
+     min-height: 93dvh;
+    background-color: rgb(187, 204, 247);
+}
+.subm{
+    display: flex;
+    position: absolute;
+     justify-content: center;
+     align-items: center;
+     box-sizing: border-box;
+     top:40px;
+     z-index: -1;
+     padding: 10px;
+     flex-direction: column;
+     text-align: center;
+     width: 100%;
+     min-height: 93dvh;
+    background-color: rgb(187, 204, 247);
+}
+.subm button{
+    background-color: rgb(2, 16, 52);
+    color: aliceblue;
+}
+.subm button:hover{
+    background-color: rgb(11, 11, 153);
+}
+.subm select{
+    text-align: center;
+}
+
+@media only screen and (max-width:700px) {
+    .option{
+        width: 50%;
+    }
+    .profile >table{
+        width: 85%;
+        border: 1px solid black;
+      min-height: 50dvh;
+    }
+    .tab{
+        font-size: smaller;
+    }
+}

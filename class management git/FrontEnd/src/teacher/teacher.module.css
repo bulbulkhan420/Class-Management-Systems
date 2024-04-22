@@ -1,0 +1,329 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.head{
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: left;
+    background-color: rgb(2, 16, 52);
+}
+.head > .logos{
+    color: aliceblue;
+    padding: 3px;
+    margin-left: 35px;
+    border: 1px solid aliceblue;
+}
+.tab{
+    width: 80%;
+    margin: 0px auto 0px auto;
+    border: 1px solid black;
+   
+}
+.poot{
+    width: 100%;
+    height: 94dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(67, 3, 3);
+    color: aliceblue;
+}
+.poot >select{
+    width: 70%;
+    text-align: center;
+}
+.poot >input{
+    width: 70%;
+    text-align: center;
+}
+.poot>input{
+    width: 70%;
+}
+.poot>button{
+    width: 70%;
+    color: aliceblue;
+    background-color: blue;
+}
+.tabs{
+    width: 80%;
+    margin: 0px auto 0px auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(230, 99, 6);
+
+}
+.tabs > select{
+    text-align: center;
+}
+.tabs >button{
+    background-color: rgb(4, 4, 67);
+    color: aliceblue;
+}
+.option{
+    width: 30%;
+    transition: 0.7s;
+    height: 94dvh;
+    z-index: 6;
+    background-color:rgb(2, 16, 52) ;
+    color: aliceblue;
+    display: flex;
+    left: -100%;
+    position: fixed;
+    top:40px;
+    justify-content: start;
+    align-items:center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.option>div{
+     padding: 15px;
+     margin-top: 30px;
+}
+.option >div:hover{
+    background-color: rgb(11, 11, 153);
+    transition: 1s;
+    border-radius: 2px;
+}
+.profile{
+    display: flex;
+   position: relative;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    top:40px;
+    padding: 10px;
+    flex-direction: column;
+    z-index: -3;
+    width: 100%;
+    min-height: 93dvh;
+   background-color: rgb(187, 204, 247);
+   
+}
+.profile >table{
+    width: 60%;
+   
+  min-height: 50dvh;
+}
+.profile >h5{
+    margin: 5px 0px;
+}
+.profile >img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+table >tbody>th{
+    text-align: center;
+   
+   
+}
+table td{
+    text-align: center;
+}
+tbody >tr{
+    border: 1px solid black;
+}
+tbody>tr:nth-child(odd){
+    background-color: black;
+    color: aliceblue;
+}
+tbody>tr:nth-child(even){
+    background-color: rgb(234, 163, 11);
+    color: aliceblue;
+}
+.result{
+    display: flex;
+    position: relative;
+     justify-content: center;
+     align-items: center;
+     box-sizing: border-box;
+     top:40px;
+     padding: 10px;
+     flex-direction: column;
+     z-index: -3;
+     width: 100%;
+     min-height: 93dvh;
+    background-color: rgb(187, 204, 247);
+}
+.subm{
+    display: flex;
+    position: absolute;
+     justify-content: center;
+     align-items: center;
+     box-sizing: border-box;
+     top:40px;
+     z-index: -1;
+     padding: 10px;
+     flex-direction: column;
+     text-align: center;
+     width: 100%;
+     min-height: 93dvh;
+    background-color: rgb(187, 204, 247);
+}
+.subm button{
+    background-color: rgb(2, 16, 52);
+    color: aliceblue;
+}
+.subm button:hover{
+    background-color: rgb(11, 11, 153);
+}
+.subm select{
+    text-align: center;
+}
+.teach{
+    display: flex;
+    position: relative;
+    top:40px;
+    width: 100%;
+    min-height: 90dvh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: -1;
+}
+.prot{
+    width: 70%;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: rgb(187, 204, 247);
+    color: rgb(26, 11, 244);
+}
+.prot img{
+    width: 120px;
+    height: 120px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.prot > div:nth-child(odd){
+    background-color: rgb(3, 10, 0);
+    color: aliceblue;
+}
+.prot > div:nth-child(even){
+    background-color: rgb(247, 246, 247);
+    color: rgb(2, 18, 32);
+}
+.dflex{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    line-height: 30px;
+    justify-content: center;
+}
+.tss{
+    position: relative;
+    top: 70px;
+    
+}
+.ing{
+    width: 80%;
+    margin: 0px auto 0px auto;
+    height: auto;
+    background-color: rgb(4, 129, 212);
+}
+.ing1{
+    width: 80%;
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    text-align: center;
+    
+}
+.ing1 >select{
+  width: 100%;
+  text-align: center;
+}
+.ing >div:nth-child(odd){
+    background-color: rgb(1, 1, 27);
+    color: aliceblue;
+  
+}
+.ing >div:nth-child(even){
+    background-color: rgb(5, 94, 36);
+    color: aliceblue;
+   
+}
+.bold{
+    text-align: left;
+    font-weight: bolder;
+}
+.st{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+    height: 35px;
+}
+.stp{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.ing >div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 35px;
+    font-size: smaller;
+    text-align: center;
+   margin-top: 5px;
+}
+.ing button{
+    background-color: rgb(11, 79, 239);
+    width: 100px;
+}
+@media only screen and (max-width:700px) {
+    .option{
+        width: 50%;
+    }
+    .profile >table{
+        width: 85%;
+        border: 1px solid black;
+      min-height: 50dvh;
+    }
+    .prot > div:nth-child(odd){
+        background-color: rgb(11, 0, 0);
+        color:aliceblue;
+        font-size: small;
+    }
+    .prot > div:nth-child(even){
+        background-color: rgb(249, 247, 249);
+        color: rgb(2, 18, 32);
+        font-size: small;
+    }
+    .bold{
+        text-align: left;
+        font-weight: bolder;
+    }
+    .prot{
+        width:80%;
+        padding: 20px;
+        border: 1px solid black;
+        background-color: rgb(187, 204, 247);
+        color: rgb(26, 11, 244);
+    }
+    .ing{
+        width: 100%;
+        margin: 0px auto 0px auto;
+        height: auto;
+        background-color: rgb(4, 129, 212);
+    }
+    .tab th,td,tr{
+      padding: auto;
+      margin: auto;
+      font-size: smaller;
+    }
+}

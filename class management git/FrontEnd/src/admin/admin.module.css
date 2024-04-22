@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.head{
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: left;
+    background-color: rgb(2, 16, 52);
+}
+.head > .logo{
+    color: aliceblue;
+    padding: 3px;
+    margin-left: 35px;
+    border: 1px solid aliceblue;
+}
+.option{
+    width: 30%;
+    transition: 0.7s;
+    height: 94dvh;
+    background-color:rgb(2, 16, 52) ;
+    color: aliceblue;
+    display: flex;
+    left: -100%;
+    position: fixed;
+    top:40px;
+    justify-content: start;
+    align-items:center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.option>div{
+     padding: 15px;
+     margin-top: 30px;
+}
+.option >div:hover{
+    background-color: rgb(11, 11, 153);
+    transition: 1s;
+    border-radius: 2px;
+}
+.mains{
+   
+    width: 100%;
+    min-height: 100dvh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    background-color:rgb(187, 204, 247) ;
+
+}
+.mains >div{
+    margin-top: 20px;
+}
+.adds{
+    display: flex;
+    width: 50%;
+    height: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid rgb(4, 121, 55)  ;
+    border-radius: 5px;
+}
+.adds>p,input,button,select{
+    margin-top:10px ;
+    height: 30px;
+    width: 85%;
+    border-radius: 3px;
+}
+.adds>button{
+    background-color:rgb(2, 16, 52)  ;
+    color: aliceblue;
+    height: 30px;
+}
+.adds >select{
+    text-align: center;
+}
+.adds>button:hover{
+    background-color: blue;
+}
+
+@media only screen and (max-width:700px){
+    .option{
+        width: 45%;
+    }
+    .adds{
+        display: flex;
+        width: 80%;
+        height: 70%;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: aliceblue;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 3px solid rgb(4, 121, 55)  ;
+        border-radius: 5px;
+    }
+}
