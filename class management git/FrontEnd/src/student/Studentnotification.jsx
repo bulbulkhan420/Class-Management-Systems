@@ -41,10 +41,10 @@ export default function Studentnotification() {
         <Studentheader sid={id}/>
       <div style={{height:'40px'}}></div>
       <div>{up.map((it,i)=>{ 
-          return <div style={{backgroundColor:'red'}} key={i}>
+          return <div style={{backgroundColor:'purple',marginTop:'0px',marginLeft:'auto',marginBottom:'5px',marginRight:'auto', width:'80%',borderRadius:'10px'}} key={i}>
           <p style={{fontWeight:'bolder',textAlign:'center',lineHeight:'30px',color:'aliceblue'}}>{it.name}</p>
-          <p style={{fontWeight:'bolder',textAlign:'center',lineHeight:'30px',color:'aliceblue'}}>{it.message}</p>
-          <p style={{fontWeight:'bolder',textAlign:'center',lineHeight:'30px',color:'aliceblue',borderBottom:'1px solid black'}}>{it.time}</p>
+          <p style={{fontWeight:'normal',textAlign:'center',lineHeight:'30px',color:'aliceblue'}}>{it.message}</p>
+          <p style={{fontSize:'10px',textAlign:'center',lineHeight:'30px',color:'aliceblue'}}>{it.time}</p>
           
         </div>
       })}</div>
